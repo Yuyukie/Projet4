@@ -39,7 +39,7 @@ body {
 }
 .d-block {
     width:1450px;
-    height:710.5px;
+    height:auto;
     object-fit: cover;
     
 }
