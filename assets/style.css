@@ -50,10 +50,6 @@ body {
 	position: relative;
 }
 
-#about img{
-	width: 403px;
-	height: 403px;
-}
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -94,18 +90,16 @@ body {
 	font-size: 14px;
 }
 
-.gallery {
-	width: 100% ;
-	max-height: auto;
+#gallery {
+	/*	min-height: 100vh; */
 }
 .title{
 	text-align: center;
 	padding-block: 2em;
 }
-.nav {
+.gallery .nav {
 	justify-content: center;
 }
-
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
@@ -128,11 +122,10 @@ body {
 .gallery-item {
 	position: absolute;
 	width: 100%;
-	height: 416px;
+	height: 100%;
 	object-fit: cover;
 	padding: .5em;
 }
-
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
@@ -142,7 +135,6 @@ body {
 	display: flex;
 	font-size: 24px;
 }
-
 
 .quote {
 	font-family: 'Spectral';
@@ -252,7 +244,6 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
-
 footer {
 	background-color: rgb(255, 255, 255);
 	padding: 30px 0;
@@ -303,14 +294,6 @@ footer {
 	list-style: none;
   }
   
-
-
-
-
-
-
-
-
 
 @media all and (max-width: 1180px) {
 	.picture {
