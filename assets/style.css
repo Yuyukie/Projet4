@@ -40,6 +40,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 .d-block {
 	width: 1534px ;
@@ -362,6 +363,8 @@ footer {
 		flex-direction: column;
 	}
 	#contact .picture.right {
+		width: 430px ;
+		height: 454.5px;
 		margin-top: 1em;
 	}
 	.picture.right::before {
