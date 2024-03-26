@@ -253,7 +253,7 @@ input[type="submit"] {
 
 
 footer {
-	background-color: rgba(51, 48, 48, 0.842);
+	background-color: rgb(255, 255, 255);
 	padding: 30px 0;
   }
   
@@ -280,32 +280,29 @@ footer {
   
   .footer-section h3 {
 	font-size: 18px;
-	color: #333;
+	color: #000000;
 	margin-bottom: 15px;
   }
   
   .footer-section p {
+	color: #000000;
 	margin-bottom: 10px;
 	font-size: 14px;
   }
   
-  .footer-section a {
-	color: #007bff;
+  .nav-footer a {
+	color: #000000;
 	text-decoration: none;
   }
-  
-  .footer-section a:hover {
-	text-decoration: underline;
-  }
 
-.nav-footer-pills .nav-footer-link.active, .nav-footer-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
-	border-radius:0 ;
-}
-.nav-footer-pills .nav-footer-link {
-	color: #000
-}
+  .nav-footer img {
+	text-decoration: none;
+  }
+  .footer-section ul, li {
+	list-style: none;
+  }
+  
+
 
 
 
