@@ -116,6 +116,7 @@ body {
 	margin-bottom: 0 !important;
 	padding: 0;
 }
+
 .item-column::after{
 	content: "";
 	display: block;
@@ -124,8 +125,8 @@ body {
 }
 .gallery-item {
 	position: absolute;
-	width: 424px;
-	height: 424px;
+	width: 400px;
+	height: 380px;
 	object-fit: cover;
 	padding: .5em;
 }
@@ -147,13 +148,13 @@ body {
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
+	font-family: 'Spectral' ;
 	font-style: italic;
 	font-weight: 300;
 
 }
 .quote__author {
-	font-family: Spectral;
+	font-family: 'Spectral';
 	font-weight: 800;
 	font-size: 22px;
 }
@@ -312,12 +313,31 @@ footer {
 	#about-me h6, #about-me p {
 		width: 100%;
 	}
+	.row{
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		margin: 0px;
+	}
+	.item-column {
+		display: flex;
+		width: 400px;
+		height: 380px;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.img-fluid{
+		width: 90%;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
-
 	}
 	.picture {
 		width: 50%;
@@ -373,9 +393,33 @@ footer {
 		right: 0;
 		z-index: -1;
 	}
+	.row{
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		margin: 0px;
+	}
+	.item-column {
+		display: flex;
+		width: 400px;
+		height: 380px;
+		align-items: center;
+
+	}
+
+	.img-fluid{
+		width: 90%;
+		align-items: center;
+	}
 }
 
+	
+
 @media all and (max-width: 650px) {
+
+	body {
+		margin: auto;
+	}
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
@@ -408,5 +452,17 @@ footer {
 	.picture {
 		width: 80%;
 	}
+	.row{
+		width: 100%;
+		align-items: center;
+		margin: 0px;
+	}
+	.item-column {
+		display: flex;
+		width: 400px;
+		height: 380px;
+	}
+	.img-fluid{
+		width: 90%;
+	}
 }
-
