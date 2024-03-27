@@ -43,8 +43,8 @@ body {
 	height: 20px;
 }
 .d-block {
-	width: 1534px ;
-	height: 709.5px;
+	width: 100% ;
+	height: auto;
 }
 #about {
 	display: flex;
