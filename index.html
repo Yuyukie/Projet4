@@ -25,17 +25,13 @@
 	<meta name="twitter:image" content= "https://yuyukie.github.io/Projet4/assets/images/nina.webp"/>
 	<meta name="twitter:url" content="https://yuyukie.github.io/Projet4/"/>
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" >
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<link rel="stylesheet" href="./assets/style.min.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com" >
+	<link rel="preconnect" href="https://fonts.googleapis.com" defer>
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" defer>
 	<link rel="canonical" href=https://yuyukie.github.io/Projet4/>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer> </script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<script src="./assets/maugallery.min.js" ></script>
-	<script src="./assets/scripts.js" ></script>
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
@@ -108,7 +104,10 @@
 						sizes="100vw" width="1920" height="888"
 						class="d-block w-100" 
 						alt="Ryoji Iwata marchant sur un passage piéton"
-						title ="Ryoji Iwata ">
+						title ="Ryoji Iwata "
+						loading="eager"
+						>
+						
 					</div>
 					<div class="carousel-item">
 						<img src="./assets/images/slider/1920/nicholas-green.webp" 
@@ -150,7 +149,7 @@
 		</section>
 		<article id="about">
 			<div class="picture left">
-				<img src="./assets/images/nina.webp" alt="Portrait de la photographe Nina Carducci" title="Nina Carducci">
+				<img src="./assets/images/nina.webp" width="426" alt="Portrait de la photographe Nina Carducci" title="Nina Carducci">
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
@@ -163,15 +162,15 @@
 			<h2 class="title">Portfolio</h2>
 			<div class="container py-3">
 				<div class="gallery">
-					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul.webp" alt="Photo du Concert de Aaron Paul" title="Concert Aaron Paul"/>
-					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.webp"  alt="Photo d'Ali Morshedlou" title="Entreprise Ali Morshedlou" loading="lazy"/>
-					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.webp"  alt="Photo de Jason Goodman" title="Entreprise Jason Goodman" loading="lazy"/>
-					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.webp"  alt="Photo du mariage de Hannah Busing" title="Mariage Hannah Busing" loading="lazy"/>
-					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji.webp"  alt="Portrait de Ade Tunji" title="Portrait Ade Tunji" loading="lazy"/>
-					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.webp"  alt="Photo du mariage de Jacob Owens" title="Mariage Jacob Owens" loading="lazy"/>
-					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.webp" alt="Portrait de Nino Van Prattenburg" title="Portrait Nino Van Prattenburg" loading="lazy"/>
-					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.webp" alt="Photo du Concert de Austin Neill" title="Concert Austin Neill" loading="lazy"/>
-					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp"alt="Photo de Mateus Campos Felipe" title="Entreprise Mateus Campos Felipe" loading="lazy"/>
+					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul.webp" width="440" height="440" alt="Photo du Concert de Aaron Paul" title="Concert Aaron Paul"/>
+					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.webp" width="440" height="440" alt="Photo d'Ali Morshedlou" title="Entreprise Ali Morshedlou" loading="lazy"/>
+					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.webp" width="440" height="440" alt="Photo de Jason Goodman" title="Entreprise Jason Goodman" loading="lazy"/>
+					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.webp" width="440" height="440" alt="Photo du mariage de Hannah Busing" title="Mariage Hannah Busing" loading="lazy"/>
+					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji.webp" width="440" height="440" alt="Portrait de Ade Tunji" title="Portrait Ade Tunji" loading="lazy"/>
+					<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.webp" width="440" height="440" alt="Photo du mariage de Jacob Owens" title="Mariage Jacob Owens" loading="lazy"/>
+					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.webp" width="440" height="440" alt="Portrait de Nino Van Prattenburg" title="Portrait Nino Van Prattenburg" loading="lazy"/>
+					<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.webp" width="440" height="440" alt="Photo du Concert de Austin Neill" title="Concert Austin Neill" loading="lazy"/>
+					<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp" width="440" height="440" alt="Photo de Mateus Campos Felipe" title="Entreprise Mateus Campos Felipe" loading="lazy"/>
 				</div>
 			</div>
 			<div class="quote">
@@ -244,7 +243,7 @@
 				</form>
 			</div>
 			<div class="picture right">
-				<img src="./assets/images/camera.webp" alt="Appareil photo" title="camera">
+				<img src="./assets/images/camera.webp" alt="Appareil photo" width="418"  title="camera">
 			</div>
 		</div>
 	</section>
@@ -268,5 +267,9 @@
 			</nav>
 		</div>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="./assets/maugallery.min.js"defer></script>
+	<script src="./assets/scripts.js"></script>
 </body>
 </html>
